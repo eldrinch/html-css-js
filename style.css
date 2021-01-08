@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -11,13 +21,13 @@
 }
 
 body {
-    font-family: Helvetica Neue, Arial;
+    font-family: Helvetica, Arial;
     font-size: 18px;
 }
 
 h1, h2 {
-    color: #00960b;
-    
+    color: #101411;
+
 }
 
 h1 {
@@ -43,11 +53,6 @@ h2 {
     margin-left: 10px;
 }
 
-.container {
-    width: 1140px;
-    margin: 20px auto 0 auto;
-}
-
 .blog-post {
     width: 75%;
     float: left;
@@ -55,12 +60,9 @@ h2 {
     position: relative;
 }
 
-.other-posts {
-    width: 25%;
-    float: left;
-}
 
-.author-box {
+
+.authgit or-box {
     padding-top: 20px;
     border-top: 1px solid #808080;
 }
